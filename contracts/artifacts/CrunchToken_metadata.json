@@ -85,6 +85,54 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"name": "balanceOf",
@@ -274,11 +322,11 @@
 	},
 	"sources": {
 		"contracts/CrunchToken.sol": {
-			"keccak256": "0x0a6cbb843e9965f9b50c5619a9948a075616e4efe4cf56f590bc48538d0ceb21",
+			"keccak256": "0xd5acd48a359cb6a9e7bb1584975ec94ddeb11febdbb09ed4e42f15d0058b640b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://978e19bd5de98b8a0dbd5b8faa1aae98312662e27ac64c6d27b78305b7157f29",
-				"dweb:/ipfs/QmPpzQyXb3X8JyNmmVUVDngx7rTxsbXXqs8gejAShgu5ag"
+				"bzz-raw://2cad6e07a85736ca3d650b6b99d5ea335292c5fcea533787e3b17b529dffc694",
+				"dweb:/ipfs/QmY7GZWagvuhGyGJuSYkqzh1T9JDbcQdnyQZ3jCY9FsfRA"
 			]
 		}
 	},

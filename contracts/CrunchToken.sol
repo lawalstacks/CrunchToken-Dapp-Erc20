@@ -27,6 +27,8 @@ pragma solidity ^0.8.26;
 
     mapping(address => TokenHolderInfo) public tokenHolderInfos;
 
+    mapping(address => mapping(address => uint256)) public allowance;
+
     struct TokenHolderInfo {
         uint256 _tokenId;
         address _from;
@@ -70,4 +72,9 @@ pragma solidity ^0.8.26;
         return true;
     }
 
+    function approve(address _spender, uint _value) public  returns(bool success) {
+        allowance[msg.sender][_spender] = _value;
+        emit Approval(msg.sender, _spender, _value);
+        return true;
+    }
  }
