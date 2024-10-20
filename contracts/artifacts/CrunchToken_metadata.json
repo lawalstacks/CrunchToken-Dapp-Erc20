@@ -274,11 +274,11 @@
 	},
 	"sources": {
 		"contracts/CrunchToken.sol": {
-			"keccak256": "0x6320be2fb1c884646443f92c6831c101a6d91a8688a90c2cc2543dcfc8f0e196",
+			"keccak256": "0x0a6cbb843e9965f9b50c5619a9948a075616e4efe4cf56f590bc48538d0ceb21",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cc5d08789baec91a29140e08adc4c034cc9451b329b091037f2c3bdc972a4a8a",
-				"dweb:/ipfs/QmddhjNk9jLsoAn6FmhirLMJytYUx3h1uKksf6rCYjFn4T"
+				"bzz-raw://978e19bd5de98b8a0dbd5b8faa1aae98312662e27ac64c6d27b78305b7157f29",
+				"dweb:/ipfs/QmPpzQyXb3X8JyNmmVUVDngx7rTxsbXXqs8gejAShgu5ag"
 			]
 		}
 	},

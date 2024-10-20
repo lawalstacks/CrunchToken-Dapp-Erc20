@@ -65,6 +65,7 @@ pragma solidity ^0.8.26;
 
         holderToken.push(_to);
 
+        //event -> emit
         emit Transfer(msg.sender,_to,_value);
         return true;
     }
