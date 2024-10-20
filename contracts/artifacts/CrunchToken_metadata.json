@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.28+commit.7893614a"
+		"version": "0.8.26+commit.8a97fa7a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -141,6 +141,58 @@
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getHolderToken",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "getTokenHolderDate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -292,6 +344,35 @@
 				],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -322,11 +403,11 @@
 	},
 	"sources": {
 		"contracts/CrunchToken.sol": {
-			"keccak256": "0xd5acd48a359cb6a9e7bb1584975ec94ddeb11febdbb09ed4e42f15d0058b640b",
+			"keccak256": "0x4937d45fa4247a6f875dbcacfea8c98a0729f643842823add3be02266bd5fb77",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2cad6e07a85736ca3d650b6b99d5ea335292c5fcea533787e3b17b529dffc694",
-				"dweb:/ipfs/QmY7GZWagvuhGyGJuSYkqzh1T9JDbcQdnyQZ3jCY9FsfRA"
+				"bzz-raw://50a7d666b496970b25d0bc27dfc35fc18ca2a0a2918afb56cbcc4737bb498576",
+				"dweb:/ipfs/QmP6EQG7tecGq9x9hjm8ExEZHp2xyGt4RDJwkgsTVyzSMs"
 			]
 		}
 	},
