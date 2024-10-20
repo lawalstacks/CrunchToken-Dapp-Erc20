@@ -99,6 +99,25 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "holderToken",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "name",
 				"outputs": [
@@ -255,11 +274,11 @@
 	},
 	"sources": {
 		"contracts/CrunchToken.sol": {
-			"keccak256": "0x6e7432c752f89dc223409c3afeabfee134ba88727a052d7ef7df6598b74ddd2d",
+			"keccak256": "0x6320be2fb1c884646443f92c6831c101a6d91a8688a90c2cc2543dcfc8f0e196",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8dcd16537036c78bcf60e49bb8be3fbe843aa72f41820fb27905e83861de8bef",
-				"dweb:/ipfs/QmT8KeNaQaPd6LcDgGa1pQ4jfSCPpsgAtoVkZJE9dkys7r"
+				"bzz-raw://cc5d08789baec91a29140e08adc4c034cc9451b329b091037f2c3bdc972a4a8a",
+				"dweb:/ipfs/QmddhjNk9jLsoAn6FmhirLMJytYUx3h1uKksf6rCYjFn4T"
 			]
 		}
 	},

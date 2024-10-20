@@ -11,6 +11,7 @@ pragma solidity ^0.8.26;
     uint public _userId;
 
     address public ownerOfContract;
+    address[] public holderToken;
 
     event Transfer(
         address indexed _from,
@@ -53,6 +54,19 @@ pragma solidity ^0.8.26;
 
         balanceOf[msg.sender] -= _value;
         balanceOf[_to] += _value;
+
+        TokenHolderInfo storage tokenHolderInfo = tokenHolderInfos[_to];
+
+        tokenHolderInfo._to = _to;
+        tokenHolderInfo._from = msg.sender;
+        tokenHolderInfo._totalToken = _value;
+        tokenHolderInfo._tokenHolder = true;
+        tokenHolderInfo._tokenId = _userId;
+
+        holderToken.push(_to);
+
+        emit Transfer(msg.sender,_to,_value);
+        return true;
     }
 
  }
